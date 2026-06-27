@@ -1,85 +1,133 @@
-<!DOCTYPE html><html lang="ja"><head>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
 <meta charset="UTF-8">
-<meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>社労士向け｜講座の設計図</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>社労士の先生へ｜あなたの知識を“売れる講座”に</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;color:#1c2331;background:#faf8f3;line-height:1.9;-webkit-font-smoothing:antialiased}
-.wrap{max-width:760px;margin:0 auto;padding:0 22px}
-.eyebrow{color:#b4884d;font-weight:700;letter-spacing:.14em;font-size:12px}
-header{background:#14213d;color:#fff;padding:64px 0 56px}
-header .eyebrow{color:#d8be96}
-header h1{font-size:30px;line-height:1.5;margin:14px 0 18px;font-weight:800;letter-spacing:.01em}
-header p{color:#c9cedb;font-size:16px}
-.tag{display:inline-block;margin-top:26px;border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:7px 16px;font-size:13px;color:#e7ecf6}
-section{padding:48px 0}
-.lead{font-size:18px;font-weight:700;border-left:3px solid #b4884d;padding-left:16px;margin-bottom:8px}
-.muted{color:#5b6472;font-size:15px}
-.mod{border:1px solid #e7e3da;background:#fff;border-radius:14px;padding:22px 24px;margin:14px 0}
-.mod .num{color:#b4884d;font-weight:700;font-size:12px;letter-spacing:.1em}
-.mod h3{font-size:18px;margin:7px 0 8px;line-height:1.55}
-.mod p{color:#5b6472;font-size:15px}
-.asset{background:#14213d;color:#fff;border-radius:16px;padding:34px 28px;margin-top:8px}
-.asset h2{font-size:21px;margin-bottom:14px}
-.asset p{color:#cdd3e0;font-size:15.5px}
-.asset .row{display:flex;gap:14px;margin-top:18px;flex-wrap:wrap}
-.asset .row div{flex:1;min-width:200px;background:rgba(255,255,255,.06);border-radius:12px;padding:16px 18px}
-.asset .row b{color:#fff;display:block;margin-bottom:4px}
-.note{font-size:13.5px;color:#5b6472;background:#fff;border:1px dashed #e7e3da;border-radius:12px;padding:18px 20px;margin-top:26px}
-.cta{text-align:center;padding:8px 0 4px}
-.cta h2{font-size:22px;margin-bottom:10px}
-.cta p{color:#5b6472;margin-bottom:8px}
-footer{text-align:center;color:#5b6472;font-size:12.5px;padding:34px 0 48px}
-.sec-title{font-size:13px;color:#b4884d;font-weight:700;letter-spacing:.12em;margin-bottom:6px}
-@media(max-width:520px){header h1{font-size:24px}}
-</style></head><body>
-<header><div class="wrap">
-  <div class="eyebrow">講座の設計図 ／ 社労士の先生へ</div>
-  <h1>“手続き代行”から、“人で会社を強くする先生”へ</h1>
-  <p>労務トラブルと採用の悩みに毎回個別対応している知見を、経営者が何度も学べる講座にする設計図です。</p>
-  <span class="tag">対象：就業規則・労務相談・助成金の対応に追われている社労士の先生</span>
-</div></header>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{--ink:#1f2632;--soft:#5e6675;--line:#e8e3d8;--navy:#15233f;--gold:#b4884d;--bg:#faf8f3;}
+  body{font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;color:var(--ink);background:var(--bg);line-height:2.02;-webkit-font-smoothing:antialiased;font-feature-settings:"palt"}
+  .wrap{max-width:720px;margin:0 auto;padding:0 26px}
+  .eyebrow{color:var(--gold);font-weight:800;letter-spacing:.1em;font-size:15.5px}
 
-<section><div class="wrap">
-  <div class="sec-title">なぜ今これか</div>
-  <p class="lead">資格で食べてはいける。けれど、収入が“自分の時間”に縛られている。</p>
-  <p class="muted">単価を上げたくても、これ以上は働けない。自分が倒れたら全部止まる——この「時間の天井」は、もっと働いても抜けられません。抜け方が違うからです。先生の頭の中にある専門性を、一度“講座”という形にしておくと、自分が動いていない時間にも、それが働きます。</p>
-</div></section>
+  header{background:linear-gradient(165deg,#15233f,#21365d);color:#fff;padding:70px 0 60px;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;right:-90px;top:-70px;width:240px;height:240px;border-radius:50%;background:rgba(180,136,77,.14)}
+  header .eyebrow{color:#e7c9a1;font-size:18px;letter-spacing:.08em}
+  header h1{font-size:31px;line-height:1.55;margin:16px 0 16px;font-weight:900;letter-spacing:.01em}
+  header h1 .hl{color:#ecce98}
+  header .sub{color:#c6cddc;font-size:16.5px;max-width:640px}
 
-<section style="padding-top:0"><div class="wrap">
-  <div class="sec-title">先生の専門なら、こう組める</div>
-  <p class="lead" style="margin-bottom:18px">講座カリキュラムの設計例（6モジュール）</p>
-  <div class="mod"><div class="num">MODULE 01</div>
-        <h3>辞めない会社の“入口”の作り方（採用と試用期間）</h3><p>労務トラブルの9割は入口で防げる。先生が現場で見てきた失敗パターンを型にする</p></div>
-<div class="mod"><div class="num">MODULE 02</div>
-        <h3>揉めない解雇・揉める解雇の決定的な違い</h3><p>経営者が一番恐れていて、一番ネットの情報が危ないテーマ。専門家の判断が値段になる</p></div>
-<div class="mod"><div class="num">MODULE 03</div>
-        <h3>就業規則を“飾り”から“武器”に変える勘所</h3><p>テンプレ配布でなく、自社に合わせて効かせる考え方。先生の介在価値そのもの</p></div>
-<div class="mod"><div class="num">MODULE 04</div>
-        <h3>使える助成金を、申請ありきでなく“制度設計”から逆算する</h3><p>もらい方でなく、会社の仕組みに組み込む発想。継続的な関係に繋がる</p></div>
-<div class="mod"><div class="num">MODULE 05</div>
-        <h3>社長と社員の“言った言わない”を消す記録と運用</h3><p>ハラスメント・残業・評価。中小企業が必ずつまずく実務</p></div>
-<div class="mod"><div class="num">MODULE 06</div>
-        <h3>人が辞めない評価とコミュニケーションの最低限</h3><p>制度より先に効く運用。社労士が語ると説得力が段違いになる領域</p></div>
-</div></section>
+  section{padding:48px 0}
+  hr.sep{border:none;border-top:1px solid var(--line);max-width:720px;margin:0 auto}
+  .quietlead{font-size:15px;color:var(--soft);font-weight:800;letter-spacing:.04em;margin-bottom:8px}
+  .big{font-size:22px;font-weight:900;line-height:1.7;letter-spacing:.01em}
+  .big .hl{color:var(--gold)}
+  p{font-size:16.5px;color:#39414f;margin-top:14px}
+  p.tight{margin-top:8px}
+  .em{font-weight:800;color:var(--ink)}
 
-<section style="padding-top:8px"><div class="wrap">
-  <div class="asset">
-    <h2>これが“資産”になる、ということ</h2>
-    <p>顧問やスポット相談は、先生が動いた分だけ。講座は、一度作れば動いていない時間にも価値を届けます。</p>
-    <div class="row">
-      <div><b>今</b>自分が動く → 収入。止まれば、ゼロ。</div>
-      <div><b>これから</b>知識が働く → 自分の時間が戻る。</div>
+  /* BENEFIT cards */
+  .bens{display:grid;grid-template-columns:1fr;gap:14px;margin-top:24px}
+  .ben{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 24px;display:flex;gap:18px;align-items:flex-start}
+  .ben .ic{flex-shrink:0;width:52px;height:52px;border-radius:12px;background:#15233f;color:#ecce98;display:flex;align-items:center;justify-content:center;font-size:26px}
+  .ben b{font-size:18px;font-weight:900;display:block;margin-bottom:4px;line-height:1.5}
+  .ben span{color:var(--soft);font-size:15px;line-height:1.85}
+
+  /* STEPS */
+  .steps{margin-top:20px}
+  .step{display:flex;gap:16px;align-items:flex-start;padding:15px 0;border-bottom:1px solid var(--line)}
+  .step:last-child{border-bottom:none}
+  .step .n{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-family:Georgia,serif;display:flex;align-items:center;justify-content:center;font-size:14px;margin-top:3px}
+  .step b{font-size:16px;font-weight:800;display:block;line-height:1.6}
+  .step span{font-size:14px;color:var(--soft)}
+
+  .cta{background:linear-gradient(165deg,#15233f,#21365d);color:#fff;text-align:center;border-radius:22px;padding:46px 30px;margin:14px 0}
+  .cta .quietlead{color:#9aa3b6}
+  .cta h2{font-size:23px;line-height:1.6;margin:6px 0 14px}
+  .cta h2 .hl{color:#ecce98}
+  .cta p{color:#c6cddc;font-size:15.5px;max-width:540px;margin:0 auto 24px}
+  .btn{display:inline-block;background:#06c755;color:#fff;font-weight:900;font-size:16.5px;padding:17px 38px;border-radius:999px;text-decoration:none;box-shadow:0 10px 24px rgba(6,199,85,.3)}
+  .cta .fine{margin-top:14px;color:#9aa3b6;font-size:12.5px}
+  footer{text-align:center;color:var(--soft);font-size:12px;padding:30px 0 48px}
+  @media(max-width:520px){header h1{font-size:25px}.big{font-size:20px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">社労士の先生へ</div>
+    <h1>欲しいのは、売上より<br><span class="hl">“あなたが動かなくていい時間”。</span></h1>
+    <p class="sub">手続きや相談対応に追われて、自分の時間が無くなっていませんか。あなたの労務の知識を一度“講座”にすれば、あなたが手を止めても、代わりに教えて、稼いでくれます。</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <p class="quietlead">今のままだと</p>
+    <p class="big">手続き代行は、こなした件数がすべて。<br>動いた分しか、報酬にならない。</p>
+    <p>顧問先が増えるほど、自分の時間は消えていく。手続きと相談に追われ、同じ説明を毎回繰り返す。この働き方では、あなたの時間が“売上の上限”を決めてしまいます。</p>
+  </div>
+</section>
+<hr class="sep">
+
+<section>
+  <div class="wrap">
+    <p class="quietlead">そして、いちばん怖いのは</p>
+    <p class="big">迷っている間に、<span class="hl">“先に形にした人”</span>から選ばれていく。</p>
+    <p>あなたより経験が浅い人が、自分の知識を堂々と“講座”にして、もう売っています。差は、実力じゃない。<span class="em">「形にしたか、しなかったか」</span>——ただ、それだけ。</p>
+    <p class="tight">放っておくほど、あなたの経験は“自分にとっての当たり前”になり、<span class="em">価値があることにすら気づけなくなります。</span></p>
+  </div>
+</section>
+<hr class="sep">
+
+<section>
+  <div class="wrap">
+    <p class="quietlead">講座にすると、こう変わる</p>
+    <p class="big">あなたの時間を、<span class="hl">知識に“肩代わり”させる。</span></p>
+    <div class="bens">
+      <div class="ben"><div class="ic">⏱</div><div><b>自分の時間が、返ってくる</b><span>「毎回ゼロから同じ説明」から、もう解放される。空いた時間は、家族にも、休むことにも、好きに使える。</span></div></div>
+      <div class="ben"><div class="ic">☾</div><div><b>あなたが動かなくても、売れる</b><span>一度つくれば“資産”になる。寝ている間も、旅行中も、あなたの知識が代わりに教えて、稼ぎ続ける。</span></div></div>
+      <div class="ben"><div class="ic">￥</div><div><b>収入は、人数の上限を超える</b><span>同じ中身を、何十人・何百人へ同時に届けられる。1対1では取りこぼしていた売上が、自然に立つ。</span></div></div>
     </div>
   </div>
-  <div class="note">※このページは <b>社労士に向けた“設計の例”</b>です。ご自身の経験・強みに合わせた完全オーダー版の設計図は、一度お話しした上でお作りします（架空の実績や数字は載せていません）。</div>
-</div></section>
+</section>
+<hr class="sep">
 
-<section style="padding-top:8px"><div class="wrap cta">
-  <h2>「時間を取り戻す話」だけ、聞いてみませんか</h2>
-  <p>売り込みはしません。15分で、先生の知識の“資産化の余地”をお見せします。</p>
-  <p class="muted">お送りしたメールにひと言ご返信いただくか、ご都合をお知らせください。</p>
-</div></section>
+<section>
+  <div class="wrap">
+    <p class="quietlead">あなたの専門なら、たとえばこう形にできる</p>
+    <p class="big">頭の中にあるものを、“ずっと働く1本”に。</p>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><div><b>いつも顧問先に伝えている“同じ話”を、最初の講座1本にする</b><span>毎回ゼロから話していたことを、一度だけ形にする。</span></div></div>
+      <div class="step"><div class="n">2</div><div><b>あなたの「ここが効く」を、言葉にして残す</b><span>感覚でやっていた“勝ちパターン”を、伝わる形にする。</span></div></div>
+      <div class="step"><div class="n">3</div><div><b>受け手が、付きっきり無しで結果を出す順番に並べる</b><span>あなたが手を離しても、相手が自分で成果に届く構成にする。</span></div></div>
+      <div class="step"><div class="n">4</div><div><b>「あなただから」を、ちゃんと値段にする</b><span>安売りしない。価値に見合った値づけができる形にする。</span></div></div>
+      <div class="step"><div class="n">5</div><div><b>毎日発信し続けなくても、必要な人に届く流れをつくる</b><span>発信が止まると終わり、をやめる。届き続ける導線にする。</span></div></div>
+    </div>
+  </div>
+</section>
+<hr class="sep">
 
-<footer><div class="wrap">講座の設計図（社労士向け設計例）／ 本ページは検索エンジンに表示されません</div></footer>
-</body></html>
+<section style="text-align:center;padding:42px 0 6px">
+  <div class="wrap">
+    <p style="font-size:21px;font-weight:900;line-height:1.75;color:var(--ink)">あなたは、もう十分がんばってきた。<br>これからは、<span style="color:var(--gold)">知識に働いてもらう番</span>です。</p>
+  </div>
+</section>
+
+<section style="padding-bottom:24px">
+  <div class="wrap">
+    <div class="cta">
+      <p class="quietlead">わたしがやること</p>
+      <h2>あなたの専門を、<span class="hl">“売れる講座1本”</span>に。<br>設計から販売まで、一緒に作ります。</h2>
+      <p>まずは、あなたの知識がどう“商品”になるかの設計図を、LINEで無料でお作りします。見て、進めたいと思えたら、そこから一緒に形にしていきましょう。</p>
+      <a class="btn" href="https://lin.ee/9VTLObc">＋ LINEで友だち追加して“設計図”を受け取る</a>
+      <div class="fine">※その場で売り込みはしません。まずは「どう商品になるか」だけお見せします。</div>
+    </div>
+  </div>
+</section>
+
+<footer>社労士の先生へ ／ 知識を“売れる講座”に変える設計図　※架空の実績・数字は載せていません</footer>
+</body>
+</html>
